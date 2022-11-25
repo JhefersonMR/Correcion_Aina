@@ -1,0 +1,40 @@
+* { /*Regla 1*/
+
+	font-family: Roboto;
+
+}
+body { /*Regla 2 */
+	margin: 0;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+h1 { /*Regla 3 */
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+}
+[class$="indice"] { /*Regla 4 */
+    color: black;
+    text-align: center;
+}
+[class$="wp"] { /*Regla 5 */
+    border: solid darkviolet 1px;
+	border-radius: 5px;
+    background-color: darkviolet;
+}
+h2 { /*Regla 6 */
+    background-color: violet;
+    padding: 0.5px;
+    border-radius: 5px;
+}
+h3 { /*Regla 7 */
+    padding: 0.5px;
+    background-color: violet;
+    border-radius: 5px;
+    text-align: center;
+}
+img { /*Regla 8 */
+    width: 70%;
+}
+li { text-decoration: none; } /*Regla 9 */
+#universal { color: darkviolet;} /*Regla 10 */
